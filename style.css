@@ -1,0 +1,70 @@
+/* General Styling Code */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/* using a star targets styling for the whole page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* targets styling for the body section 
+    adding in a font for all the body entries*/
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* adds style to all html 
+    scroll behaviour smooth insures that the navigation doesnt jump and instead scrolls */
+html {
+    scroll-behavior: smooth;
+
+}
+
+/* Paragraph styling
+    adding color */
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Transition */
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* Desktop Nav */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    
+}
